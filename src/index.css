@@ -9,7 +9,7 @@
     animation: wave 2s infinite;
 }
 .slide {
-    top: -100%;
+    top: -200%;
     transition: top 0.3s ease;
 }
 .slide.slide-down {
