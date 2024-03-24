@@ -1,0 +1,36 @@
+{
+    "projectList":[
+        {
+            "color": "bg-red-500",
+            "image": "./src/assets/project1.png",
+            "title": "Aniwatch",
+            "description": "GoGoKah is an anime streaming website, you can watch your favorite anytime anywhere...",
+            "github": "#",
+            "url": "https://gogokah.netlify.app/"
+        },
+        {
+            "color": "bg-purple-500",
+            "image": "./src/assets/Movie.png",
+            "title": "Cineflex",
+            "description": "Cineflex website is not a pirated movie website, this website provide information for upcoming and...",
+            "github": "#",
+            "url": "https://cineflexnet.netlify.app/"
+        },
+        {
+            "color": "bg-blue-500",
+            "image": "./src/assets/project3.png",
+            "title": "Guess the Rank",
+            "description": "This is my side project that I created to those who love guessing the rank of their favorite game...",
+            "github": "#",
+            "url": "#"
+        },
+        {
+            "color": "bg-green-500",
+            "image": "./src/assets/project4.png",
+            "title": "Spotify Clone",
+            "description": "I created a spotify clone and use the API provided of the Spotify, user can play and enjoy their music...",
+            "github": "#",
+            "url": "https://spotify-web-apps.netlify.app/"
+        }
+    ]
+    }

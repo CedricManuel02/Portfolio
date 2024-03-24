@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/cascadia-code');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wave {
+    display: inline-block;
+    animation: wave 2s infinite;
+}
+.slide {
+    top: -100%;
+    transition: top 0.3s ease;
+}
+.slide.slide-down {
+    top: 0;
+    animation: slide-down 0.3s ease;
+}
+
+@keyframes slide-down {
+    0% {
+        top: -100%;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-30deg);
+    }
+    50% {
+        transform: rotate(30deg);
+    }
+    75% {
+        transform: rotate(-30deg);
+    }
+}
