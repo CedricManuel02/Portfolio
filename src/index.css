@@ -4,9 +4,30 @@
 @tailwind components;
 @tailwind utilities;
 
-.wave {
-    display: inline-block;
-    animation: wave 2s infinite;
+.text-gradient {
+  --bg-size: 400%;
+  --color-one: rgba(255,75,224,1);
+  --color-two: rgba(161,35,218,1);
+  background: linear-gradient(
+      90deg,
+      var(--color-one),
+      var(--color-two),
+      var(--color-one)
+    )
+    0 0 / var(--bg-size) 100%;
+  color: transparent;
+  background-clip: text;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .text-gradient {
+    animation: move-bg 8s linear infinite;
+  }
+  @keyframes move-bg {
+    to {
+      background-position: var(--bg-size) 0;
+    }
+  }
 }
 .slide {
     top: -200%;
@@ -23,20 +44,5 @@
     }
     100% {
         top: 0;
-    }
-}
-
-@keyframes wave {
-    0%, 100% {
-        transform: rotate(0deg);
-    }
-    25% {
-        transform: rotate(-30deg);
-    }
-    50% {
-        transform: rotate(30deg);
-    }
-    75% {
-        transform: rotate(-30deg);
     }
 }
