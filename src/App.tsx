@@ -6,7 +6,7 @@ import "./index.css";
 
 function App() {
   return (
-    <div className={`bg-[#121212] font-Kanit`}>
+    <div data-theme="dark" className={`bg-[#121212] font-Kanit`}>
     <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
