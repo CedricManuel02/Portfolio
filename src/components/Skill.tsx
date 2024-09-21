@@ -123,18 +123,7 @@ export default function Skill() {
           }
           name={"Figma"}
         />
-        <Skills
-          image={
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1024px-Typescript_logo_2020.svg.png"
-          }
-          name={"Typescript"}
-        />
-        <Skills
-          image={
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Status_iucn_EX_icon.svg/1024px-Status_iucn_EX_icon.svg.png"
-          }
-          name={"Express Js"}
-        />
+       
         <Skills
           image={
             "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png"

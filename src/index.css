@@ -5,16 +5,11 @@
 @tailwind utilities;
 
 .text-gradient {
-  --bg-size: 400%;
-  --color-one: rgba(255,75,224,1);
-  --color-two: rgba(161,35,218,1);
-  background: linear-gradient(
-      90deg,
-      var(--color-one),
-      var(--color-two),
-      var(--color-one)
-    )
-    0 0 / var(--bg-size) 100%;
+  --bg-size: 200%;
+  --color-one: rgba(255,75,224, 1);
+  --color-two: rgba(255, 195, 31 ,1);
+  --color-three: rgba(255, 31, 68 ,1);
+  background: linear-gradient(90deg, var(--color-one), var(--color-two), var(--color-three), var(--color-one)) 0 0 / var(--bg-size) 100%;
   color: transparent;
   background-clip: text;
 }

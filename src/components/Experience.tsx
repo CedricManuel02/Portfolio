@@ -16,6 +16,9 @@ export default function Experience() {
         {name: "CSS",
           image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png"
         },
+        {name: "Bootstrap",
+          image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png"
+        },
         {name: "Javascript",
           image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
         },
@@ -25,6 +28,9 @@ export default function Experience() {
         {name: ".NET Framework",
           image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/800px-Microsoft_.NET_logo.svg.png"
         },
+        {name: "MSSQL Server",
+          image: "https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg"
+        }
       ]
     },
     {
@@ -37,18 +43,18 @@ export default function Experience() {
         {name: "HTML",
           image: "https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png"
         },
-        {name: "CSS",
-          image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png"
+        {name: "Tailwind CSS",
+          image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png"
         },
         {name: "Javascript",
           image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
         },
-        {name: "JQuery",
-          image: "https://seeklogo.com/images/J/jquery-logo-CFE6ECE363-seeklogo.com.png"
+        {name: "PHP",
+          image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png"
         },
-        {name: ".NET Framework",
-          image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/800px-Microsoft_.NET_logo.svg.png"
-        },
+        {name: "MySQL",
+          image: "https://static-00.iconduck.com/assets.00/mysql-icon-512x502-dn9lwwd1.png"
+        }
       ]
     },
     {
@@ -61,8 +67,8 @@ export default function Experience() {
         {name: "HTML",
           image: "https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png"
         },
-        {name: "CSS",
-          image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png"
+        {name: "Tailwind CSS",
+          image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png"
         },
         {name: "Javascript",
           image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
@@ -70,9 +76,12 @@ export default function Experience() {
         {name: "JQuery",
           image: "https://seeklogo.com/images/J/jquery-logo-CFE6ECE363-seeklogo.com.png"
         },
-        {name: ".NET Framework",
-          image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/800px-Microsoft_.NET_logo.svg.png"
+        {name: "PHP",
+          image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png"
         },
+        {name: "MySQL",
+          image: "https://static-00.iconduck.com/assets.00/mysql-icon-512x502-dn9lwwd1.png"
+        }
       ]
     },
   ];
