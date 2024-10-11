@@ -1,6 +1,6 @@
 import React from "react";
 import { FileText, MessageSquareText } from "lucide-react";
-import Resume from "../docs/Resume.pdf";
+import Resume from "../docs/MANUEL, CEDRIC GIO - CV.pdf";
 import { useRef} from "react";
 import { ToastContainer } from "react-toastify";
 import Modal from "./shared/Modal";

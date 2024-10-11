@@ -9,9 +9,9 @@ export default function Skill() {
       <div className="grid gap-4 grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-8 xl:grid-cols-8 2xl:grid-cols-8">
         <Skills
           image={
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png"
+            "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
           }
-          name={"PHP"}
+          name={"Javascript"}
         />
         <Skills
           image={
@@ -20,10 +20,20 @@ export default function Skill() {
           name={"React"}
         />
         <Skills
+          image={"https://cdn.worldvectorlogo.com/logos/next-js.svg"}
+          name={"Next JS"}
+        />
+        <Skills
           image={
             "https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png"
           }
           name={"Node JS"}
+        />
+        <Skills
+          image={
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png"
+          }
+          name={"PHP"}
         />
         <Skills
           image={
@@ -37,12 +47,7 @@ export default function Skill() {
           }
           name={"MySQL"}
         />
-        <Skills
-          image={
-            "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
-          }
-          name={"Javascript"}
-        />
+
         <Skills
           image={"https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png"}
           name={"HTML"}
@@ -58,10 +63,6 @@ export default function Skill() {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png"
           }
           name={"Bootstrap"}
-        />
-        <Skills
-          image={"https://cdn.worldvectorlogo.com/logos/next-js.svg"}
-          name={"Next JS"}
         />
         <Skills
           image={
@@ -91,26 +92,14 @@ export default function Skill() {
           }
           name={"JQuery"}
         />
-     
-        <Skills
-          image={
-            "https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-svg-vector.svg"
-          }
-          name={"Netlify"}
-        />
-        <Skills
-          image={
-            "https://static-00.iconduck.com/assets.00/vercel-icon-512x449-3422jidz.png"
-          }
-          name={"Vercel"}
-        />
+
         <Skills
           image={
             "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Microsoft_.NET_logo.svg/800px-Microsoft_.NET_logo.svg.png"
           }
           name={"DotNet"}
         />
-      
+
         <Skills
           image={
             "https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg"
@@ -123,7 +112,7 @@ export default function Skill() {
           }
           name={"Figma"}
         />
-       
+
         <Skills
           image={
             "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png"

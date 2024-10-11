@@ -48,7 +48,7 @@ export default function Footer(){
               <LinkedinIcon size={23} />
             </a>
             <a
-              href="#"
+              href="https://github.com/CedricManuel02"
               data-tip="/CedricManuel02"
               className="tooltip cursor-pointer hover:scale-[1.1] hover:text-purple-400 transition-all"
             >
