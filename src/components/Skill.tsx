@@ -24,6 +24,10 @@ export default function Skill() {
           name={"Next JS"}
         />
         <Skills
+          image={"https://raw.githubusercontent.com/github/explore/7608ddc367af1be315831c3fbb5b09aa56fa1bcb/topics/honojs/honojs.png"}
+          name={"Hono JS"}
+        />
+        <Skills
           image={
             "https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png"
           }
@@ -37,7 +41,7 @@ export default function Skill() {
         />
         <Skills
           image={
-            "https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png"
+            "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1-1.svg"
           }
           name={"MongoDB"}
         />
@@ -72,13 +76,13 @@ export default function Skill() {
         />
         <Skills
           image={
-            "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/visual-studio-code-icon.png"
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png"
           }
           name={"Vs Code"}
         />
         <Skills
           image={
-            "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png"
+            "https://cdn.iconscout.com/icon/free/png-256/free-postman-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-2945092.png?f=webp&w=256"
           }
           name={"Postman"}
         />
@@ -88,7 +92,7 @@ export default function Skill() {
         />
         <Skills
           image={
-            "https://seeklogo.com/images/J/jquery-logo-CFE6ECE363-seeklogo.com.png"
+            "https://www.cdnlogo.com/logos/j/17/jquery.svg"
           }
           name={"JQuery"}
         />
