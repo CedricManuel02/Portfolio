@@ -2,8 +2,13 @@
 import { X } from "lucide-react";
 import React from "react";
 import { Link as ScrollLink } from "react-scroll";
+type TNavigationSidebar = {
+  handleScrollTo: (tab: string) => void;
+  handleToggle: () => void;
+  toggle: boolean;
+}
 
-export default function NavigationSidebar({ handleScrollTo, handleToggle, toggle }: any) {
+export default function NavigationSidebar({ handleScrollTo, handleToggle, toggle }: TNavigationSidebar) {
   return (
     <div className={`${toggle ? "block slide-down" : ""} slide block w-full h-screen fixed left-0 bg-[#121212]  z-10 sm:block md:block lg:hidden`}>
       <div className="w-11/12 sm:w-11/12 lg:w-5/12 m-auto h-full flex items-center justify-start relative">

@@ -3,7 +3,7 @@ import { Link as ScrollLink } from "react-scroll";
 import { Facebook, Github, Instagram, LinkedinIcon, Mail } from "lucide-react";
 
 export default function Footer() {
-  const handleScrollTo = (id: any) => {
+  const handleScrollTo = (id: string) => {
     document.getElementById(id)?.scrollIntoView({
       behavior: "smooth",
     });

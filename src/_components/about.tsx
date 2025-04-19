@@ -10,9 +10,9 @@ export default function About() {
           <Header title={"About"} />
           <div className="px-4">
             <p className="text-slate-400 text-base">
-              Hi, my name is Cedric Gio Manuel, and I'm a {new Date().getFullYear() - 2002} years old individual with a keen interest in technology
+              Hi, my name is Cedric Gio Manuel, and I&apos;m a {new Date().getFullYear() - 2002} years old individual with a keen interest in technology
               and innovation. I hold a Bachelor of Science degree in Information Technology from Cavite State University Bacoor Campus. My academic
-              journey has been an exciting exploration of the vast world of IT, and I'm eager to apply my knowledge to real-world projects.
+              journey has been an exciting exploration of the vast world of IT, and I&apos;m eager to apply my knowledge to real-world projects.
             </p>
             <Socials />
           </div>

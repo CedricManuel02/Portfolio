@@ -5,8 +5,8 @@ import { Link as ScrollLink } from "react-scroll";
 import NavigationSidebar from "./navigation-sidebar";
 
 export default function NavigationBar() {
-  const [toggle, setToggle] = useState<Boolean>(false);
-  const handleScrollTo = (id: any) => {
+  const [toggle, setToggle] = useState<boolean>(false);
+  const handleScrollTo = (id: string) => {
     setToggle(false);
     document.getElementById(id)?.scrollIntoView({
       behavior: "smooth",
