@@ -37,8 +37,9 @@ export default function Modal() {
               },
             });
           },
-          (error: any) => {
+          (error) => {
             setIsLoading(false);
+            console.error("Something went wrong while sending email", error);
             toast("Opps!", {
               description: "Failed to send email, please try again later",
               unstyled: true,
@@ -62,7 +63,7 @@ export default function Modal() {
         <form ref={form} onSubmit={sendEmail}>
           <DialogHeader>
             <DialogTitle>Email me</DialogTitle>
-            <DialogDescription>Let's collaborate !</DialogDescription>
+            <DialogDescription>Let&apos;s collaborate !</DialogDescription>
           </DialogHeader>
           <div className="grid gap-4 py-4">
             <div className="flex flex-col gap-2">

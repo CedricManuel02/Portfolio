@@ -1,7 +1,5 @@
-import { motion } from "motion/react";
 import MotionContainer from "./motion-container";
-export default function Header({ title }: any) {
-
+export default function Header({ title }: {title: string}) {
   return (
     <MotionContainer>
       <h2 className="px-4 flex items-end font-semibold text-white text-4xl my-5">

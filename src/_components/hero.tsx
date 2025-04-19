@@ -4,6 +4,7 @@ import { FileText } from "lucide-react";
 import Modal from "./shared/email-modal";
 import { Button } from "@/components/ui/button";
 import { Meteors } from "@/components/magicui/meteors";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -14,7 +15,7 @@ export default function Hero() {
           <div className="w-10/12  h-screen flex flex-col items-center gap-5 justify-center font-semibold sm:w-11/12 md:w-11/12 lg:w-11/12 xl:w-11/12 2xl:w-11/12">
             <h3 className="border border-slate-600 text-slate-300 flex items-center font-medium justify-center gap-2 w-64 rounded-full p-2">
               Hello, they call me Cedric.{" "}
-              <img className="w-4" src="https://img.daisyui.com/images/emoji/smiling-face-with-sunglasses@80.webp" alt="icon" />
+              <Image className="w-4" width={100} height={100} src="https://img.daisyui.com/images/emoji/smiling-face-with-sunglasses@80.webp" alt="icon" />
             </h3>
             <h2 className="text-4xl lg:text-5xl pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-slate-400 to-slate-600/80 bg-clip-text text-center font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
               Experienced full-stack developer with a focus on front-end developer
@@ -24,7 +25,7 @@ export default function Hero() {
               <div className="flex items-center justify-start  gap-2 w-5/12 h-full flex-col sm:flex-col sm:justify-start md:justify-start md:flex-col lg:justify-center lg:flex-row xl:justify-center xl:flex-row 2xl:justify-center 2xl:flex-row">
                 <span className="bg-slate-500 text-slate-300 py-2 px-3 rounded-md">2</span>
                 <p className="font-thin text-xs text-center whitespace-nowrap text-white">
-                  Year's of <br /> experience
+                  Year&apos;s of <br /> experience
                 </p>
               </div>
               <div className="flex items-center justify-start gap-2 w-5/12 h-full  flex-col sm:flex-col sm:justify-start md:justify-start md:flex-col lg:justify-center lg:flex-row xl:justify-center xl:flex-row 2xl:justify-center 2xl:flex-row border-dashed border-l border-slate-400 border-r px-5">
