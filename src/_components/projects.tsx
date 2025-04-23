@@ -8,7 +8,7 @@ import MotionContainer from "./shared/motion-container";
 export default function Project() {
   const projects = [
     {
-      image: "https://res.cloudinary.com/dewuwe0ig/image/upload/v1744775258/Movie_rjszgb.png",
+      image: "https://res.cloudinary.com/dewuwe0ig/image/upload/v1745394736/ezgif.com-video-to-gif-converter_1_fq3ui5.gif",
       title: "Netflix Clone",
       description: "Netflix website is not a pirated movie website, this website provide information for upcoming movies.",
       status: true,
@@ -24,10 +24,10 @@ export default function Project() {
       url: "https://league-of-legends-api-integration.vercel.app/",
     },
     {
-      image: "https://res.cloudinary.com/dewuwe0ig/image/upload/v1744775257/project4_vpybs5.png",
+      image: "https://res.cloudinary.com/dewuwe0ig/image/upload/v1745393118/ezgif.com-video-to-gif-converter_gtm2wg.gif",
       title: "Spotify Clone",
       description: "I created a spotify clone and use the API provided of the Spotify, user can play and enjoy their music.",
-      status: false,
+      status: true,
       github: "/",
       url: "/",
     },
@@ -66,7 +66,7 @@ export default function Project() {
                           project.status ? "badge-success outline-green-500" : "badge-warning  outline-yellow-500"
                         } text-xs badge badge-outline outline px-2`}
                       >
-                        {project.status ? "Running" : "In progress"}
+                        {project.status ? "Complete" : "In Progress"}
                       </span>
                     </div>
                     <p className="text-slate-400 font-thin text-justify">{project.description}</p>

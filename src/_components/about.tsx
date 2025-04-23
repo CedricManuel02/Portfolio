@@ -20,7 +20,7 @@ export default function About() {
         <div className="px-4">
           <Image
             src={
-              "https://scontent.fmnl7-2.fna.fbcdn.net/v/t39.30808-6/461542624_8369654523152236_3388485198945854627_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeHLx5It1sjHHECAtewU3Txlj00aAglN4QGPTRoCCU3hAY29SBIdcv-ydytsH6HnzMQSI1URPqSZrTM2vc0X6Fgp&_nc_ohc=OHfHUt0cFFAQ7kNvwGo2Da_&_nc_oc=AdlJmQOA25QrqvumzwuU8IpJAuifI6YI37SqGXXiMjo46QxljNqiOjdspBKwM8UWKrA&_nc_zt=23&_nc_ht=scontent.fmnl7-2.fna&_nc_gid=MIFfcXxBgCjksAdNCiUabA&oh=00_AfHkr0lrdcpWVrIkhrs88lvVDrtHMn23Vwqo9q4NzbzguQ&oe=680793DD"
+              "https://res.cloudinary.com/dewuwe0ig/image/upload/v1745395384/461542624_8369654523152236_3388485198945854627_n_j6pw2r.jpg"
             }
             className="rounded-md"
             alt="image"
