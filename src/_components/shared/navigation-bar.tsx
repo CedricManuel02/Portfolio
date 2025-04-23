@@ -1,6 +1,6 @@
 "use client";
 import { AlignRight } from "lucide-react";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import NavigationSidebar from "./navigation-sidebar";
 
@@ -17,6 +17,17 @@ export default function NavigationBar() {
     setToggle(!toggle);
   };
 
+  useEffect(() => {
+    if (toggle) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [toggle]);
   return (
     <nav className="bg-[#121212] w-full py-6 fixed z-30 shadow text-slate-400 font-medium">
       <NavigationSidebar toggle={toggle} handleToggle={handleToggle} handleScrollTo={handleScrollTo} />
