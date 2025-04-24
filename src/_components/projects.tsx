@@ -16,7 +16,7 @@ export default function Project() {
       url: "https://cm-netflix.vercel.app/",
     },
     {
-      image: "https://res.cloudinary.com/dewuwe0ig/image/upload/v1744775257/project1_yh0qts.png",
+      image: "https://res.cloudinary.com/dewuwe0ig/image/upload/v1745462263/ezgif.com-video-to-gif-converter_quddsr.gif",
       title: "League of Legends API",
       description: "League of Legends API, this provide a hero information, skills , and abilities.",
       status: true,
@@ -32,7 +32,7 @@ export default function Project() {
       url: "/",
     },
     {
-      image: "https://res.cloudinary.com/dewuwe0ig/image/upload/v1744775257/Project5_emr6xj.png",
+      image: "https://res.cloudinary.com/dewuwe0ig/image/upload/v1745464085/ezgif.com-video-to-gif-sd_mo9yjl.gif",
       title: "Seoul Mart Korean E-Commerce",
       description: "Developed a Korean E-commerce website with Next JS and Hono JS for backend.",
       status: false,
