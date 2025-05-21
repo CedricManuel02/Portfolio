@@ -50,7 +50,7 @@ export default function Project() {
               <div className="w-[450px]" key={index}>
                 <figure className="rounded-xl flex items-center justify-center">
                   <Image
-                    className="h-54 md:h-64 w-full rounded  cursor-pointer object-cover"
+                    className="h-54 md:h-64 w-full rounded-md  cursor-pointer object-cover"
                     src={project.image}
                     width={600}
                     height={500}
