@@ -41,7 +41,7 @@ export default function Skills() {
           <p className="my-5 text-slate-400">Technoligies and tools</p>
           <div className="grid gap-4 grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-8">
             {skills.map((skill, index) => (
-              <Skill key={index} image={skill.image} name={skill.name} />
+              <Skill key={index} image={skill.image} name={skill.name} index={index} />
             ))}
           </div>
         </div>

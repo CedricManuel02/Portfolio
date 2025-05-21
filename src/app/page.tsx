@@ -1,4 +1,5 @@
 import About from "@/_components/about";
+import Certifications from "@/_components/certificate";
 import Experience from "@/_components/experience";
 import Hero from "@/_components/hero";
 import Project from "@/_components/projects";
@@ -9,8 +10,9 @@ export default function Home() {
     <main className="m-auto h-auto w-full lg:w-10/12 xl:w-8/12 2xl:w-7/12">
       <Hero/>
       <About/>
-      <Project/>
+      <Certifications/>
       <Skills/>
+      <Project/>
       <Experience/>
     </main>
   );

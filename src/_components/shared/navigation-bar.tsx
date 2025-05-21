@@ -59,7 +59,11 @@ export default function NavigationBar() {
                   experience
                 </ScrollLink>
               </li>
-
+              <li>
+                <ScrollLink className="py-5 font-normal cursor-pointer" to="certifications" smooth={true} duration={500}>
+                  certifications
+                </ScrollLink>
+              </li>
               <li>
                 <ScrollLink className="py-5 font-normal cursor-pointer" to="skills" smooth={true} duration={500}>
                   skills
