@@ -4,7 +4,13 @@ import Image from "next/image";
 import MotionContainer from "./shared/motion-container";
 import Link from "next/link";
 import { Marquee } from "@/components/magicui/marquee";
-
+type certificate = {
+  title: string;
+  image: string;
+  date: string;
+  link: string;
+  issued_by: string;
+}
 export default function Certifications() {
   const certificates = [
     {
@@ -56,7 +62,7 @@ export default function Certifications() {
         <Header title={"Certifications"} />
         <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
           <Marquee reverse pauseOnHover className="[--duration:40s]">
-            {certificates.map((certificate: any, index: number) => (
+            {certificates.map((certificate: certificate, index: number) => (
               <figure className="w-96 h-full" key={index}>
                 <Image src={certificate.image} alt={certificate.title} className="rounded-md w-full h-64 object-cover" width={1000} height={100} />
                 <figcaption className="mt-2">
